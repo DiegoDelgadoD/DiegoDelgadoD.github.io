@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+{% include bas`e_path %}
 
 Education
 ======
@@ -16,24 +16,23 @@ Education
 
 Work experience
 ======
-* Research Intern  (March 2021 - September 2021)
-  * UPCH and PUCP 
-  * Supported with data analysis about migrants and the peruvian health system.
-  * Supervisor: Professor Juan Arroyo
+## Research Assistant  (March 2021 - September 2021) 
 
-* Research Intern  (October 2021 - Present)
-  * Innovations for Povery Action - Latin America and Caribbean, Peru
-  * Support with survey design , data analysis 
+**UPCH and PUCP**
+
+Supported with data analysis about migrants and the peruvian health system.
+ Supervisor: Professor Juan Arroyo
+
+## Research Intern  (October 2021 - Present)
+
+**Innovations for Povery Action - Latin America and Caribbean, Peru**
+  
+  Support with survey design , data analysis 
   
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
 
 
   
