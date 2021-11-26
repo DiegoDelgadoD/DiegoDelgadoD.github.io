@@ -7,7 +7,7 @@ main:
     url: /portfolio/
 
   - title: "CV"
-    url: /files/Diego_Delgado_1021.pdf
+    url: /cv/
     
   - title: "Gallery"
     url: /gallery/
