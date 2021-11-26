@@ -9,7 +9,10 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Gallery"
+  - title: "Other Research"
     url: /gallery/
+  
+# - title: "Research"
+#    url: /research/
 
 

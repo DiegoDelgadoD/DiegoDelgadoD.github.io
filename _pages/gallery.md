@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Gallery"
+title: "Other Research"
 permalink: /gallery/
 author_profile: true
 header:
