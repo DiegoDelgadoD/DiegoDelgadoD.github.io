@@ -83,7 +83,7 @@ author:
   name             : "Diego Delgado"
   avatar           : "profile.png"
   bio              : "Undergraduate Economics student at PUCP. "
-  location         : "Lima/Cusco"
+  location         : "Lima/Cusco, Peru"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -176,7 +176,7 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
@@ -185,7 +185,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
