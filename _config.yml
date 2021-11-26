@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Diego Delgado"
-  avatar           : "profile.png"
+  avatar           : "bio-photo.jpg"
   bio              : "Undergraduate Economics student at PUCP. "
   location         : "Lima/Cusco, Peru"
   employer         :
@@ -189,6 +189,9 @@ collections:
     permalink: /:collection/:path/
   talks:
     output: false
+    permalink: /:collection/:path/
+  gallery:
+    output: true
     permalink: /:collection/:path/
 
 
