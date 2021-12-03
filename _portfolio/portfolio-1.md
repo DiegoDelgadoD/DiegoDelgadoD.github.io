@@ -1,6 +1,6 @@
 ---
-title: "Applied Statistics"
-excerpt: "This course included some python code to learn some about Machine Learning methods and applications using real life and simulated data. This was an group project made in conjuction with Melani Geng, Rodrigo Sillupu and Gonzalo Quiroz."
+title: "Applied Statistics: Machine Learning and Causal Inference"
+excerpt: "We replicated all the Python scripts from the Applied Statistics course in the Social Sciences Faculty of the PUCP."
 permalink: /portfolio/applied_statistics
 collection: portfolio
 url: ""
