@@ -1,6 +1,6 @@
 ---
 title: "Applied Statistics: Machine Learning and Causal Inference"
-excerpt: "We replicated all the Python scripts from the Applied Statistics course in the Social Sciences Faculty of the PUCP."
+excerpt: "My fellows Melani Geng, Gonzalo Quiroz , Rodrigo Sillupu and I replicated all the Python scripts from the Applied Statistics course in the Social Sciences Faculty of the PUCP."
 permalink: /portfolio/applied_statistics
 collection: portfolio
 url: ""
