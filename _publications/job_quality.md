@@ -2,7 +2,7 @@
 title: "Cuando migrar no es suficiente:  Una comparación de la calidad del empleo de los migrantes y no migrantes en el Perú urbano en el 2019 y 2020"
 collection: publications
 permalink: /publication/job_quality
-excerpt: "This non-refereed article analyzes job quality of migrants during 2019 and 2020. After a brief literature review a generalized ordinal logit model is used to estimate the relation between migrantory situation and characteristics with job quality"
+excerpt: "This forthcoming article analyzes job quality of migrants during 2019 and 2020. After a brief literature review a generalized ordinal logit model is used to estimate the relation between migrantory situation and characteristics with job quality"
 date: 2021-11-20
 
 ---
