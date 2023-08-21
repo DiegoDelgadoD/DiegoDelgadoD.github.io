@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal site!
+Welcome to my personal site
 ========
 
 Here you will find more about my research, interests and experience
@@ -16,6 +16,5 @@ Here you will find more about my research, interests and experience
 About me
 ======
 
-I'm a final-year undergraduate student at the Pontificia Universidad Católica del Perú (PUCP). My main fields of interest are development, education, econometrics  and data science. Currently I'm also a Research Intern at Innovations for Poverty Action ([IPA](https://www.poverty-action.org/country/peru)) Perú. 
-
+I'm a Research Analyst at Innovations for Poverty Action ([IPA](https://poverty-action.org/node/52147)) Perú. I hold a Bachelor's Degree in Economics from Pontificia Universidad Católica del Perú (PUCP) where I graduated with first class honours in 2022. My Research interests are Education, Labor and Applied Methods.
 

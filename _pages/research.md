@@ -5,9 +5,12 @@ permalink: /research/
 author_profile: true
 ---
 
-As a Research Assistant I  had the opportunity to focused my work on:
+I  had the opportunity to focused my Research on:
   * Peruvian Health System Respone to migration.
-  * Migrants perception about the peruvian Health System.
+  * Early Childhood Development 
+  * Nudge-based interventions to cope the negative effects on Early Childhood Development during the COVID-19 Pandemic.
+  * Technology-based interventions to improve Early Childhood Development.
+  * Job quality in the peruvian labor market
 
 I also have wrote a web article in Spanish for Economica.
 
