@@ -10,21 +10,21 @@ url: ""
 You can reach the repository where the codes and the used data [here](https://github.com/DiegoDelgadoD/Intermediate-Python-). All the presented codes and described are developed in Python 3.
 
 
-* **Webscapping codes** 
-* *** [Obtaining electoral results from Peru](https://github.com/DiegoDelgadoD/Intermediate-Python-/blob/main/code/Webscrapping_electoral_results_peru.ipynb) ***
+- **Webscapping codes** 
+    - **[Obtaining electoral results from Peru](https://github.com/DiegoDelgadoD/Intermediate-Python-/blob/main/code/Webscrapping_electoral_results_peru.ipynb)**
 
 Here we used Webscraping techniques to obtain electoral results from Peru. We first obtained them for one election and then, through a loop, we obtained all the data from every recorded Presidential election in Peru sicne the Twentieth century.
 
-* *** [Measuring distances by using geodata](https://github.com/DiegoDelgadoD/Intermediate-Python-/blob/main/code/Webscrapping_bank_locations_and_google_API.ipynb) ***
+    - **[Measuring distances by using geodata](https://github.com/DiegoDelgadoD/Intermediate-Python-/blob/main/code/Webscrapping_bank_locations_and_google_API.ipynb)**
 
 Here we used the Google Maps API to measure the distance between each member's home to every Bank office in Lima.
 
-* **Data visualization: Using maps**
-* *** [Plotting Dengue cases in Peru](https://github.com/DiegoDelgadoD/Intermediate-Python-/blob/main/code/Plotting_Dengue_cases_peru.ipynb) ***
+- **Data visualization: Using maps**
+    - **[Plotting Dengue cases in Peru](https://github.com/DiegoDelgadoD/Intermediate-Python-/blob/main/code/Plotting_Dengue_cases_peru.ipynb)**
 
 In this code we plotted the Dengue cases across Peru at district level by using geopandas.
 
-* *** [Plotting Universities in Peru](https://github.com/DiegoDelgadoD/Intermediate-Python-/blob/main/code/Mapping_Universities_Peru.ipynb) ****
+    - **[Plotting Universities in Peru](https://github.com/DiegoDelgadoD/Intermediate-Python-/blob/main/code/Mapping_Universities_Peru.ipynb)**
 
 In this code we used Interactive Maps to map every Higher Education Institutes in Peru. We Elaborated interactive popup maps and heatmaps.
 
