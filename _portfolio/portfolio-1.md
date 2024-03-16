@@ -38,3 +38,9 @@ To observe the treatment effects, we obtain bootstrap estimates. Then we find th
 
 We evaluated the performance of some DML methods using the Barro-Lee Growth data. We evaluated which method has the better pperformance for each stage of the Debiasing process. We chose the Elastic Net method for both partialling out equations. However, the results here may be not accurate since the used dataset is small.
 
+
+
+
+
+
+
