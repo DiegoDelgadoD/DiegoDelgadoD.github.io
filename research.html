@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Diego Delgado</title>
+  <meta name="description" content="Research projects and papers by Diego Delgado — RCTs in financial inclusion, education, and development economics across Latin America." />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/research.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">Diego Delgado</a>
+      <ul class="navbar-links">
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="code.html">Code</a></li>
+        <li><a href="files/Diego_Delgado_CV.pdf" target="_blank">CV</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav">
+    <a href="research.html" class="active">Research</a>
+    <a href="photography.html">Photography</a>
+    <a href="code.html">Code</a>
+    <a href="files/Diego_Delgado_CV.pdf" target="_blank">CV</a>
+  </div>
+
+  <main class="page-top">
+    <div class="container">
+
+      <!-- PAGE HEADER -->
+      <section style="padding-bottom: 0;">
+        <h1>Research</h1>
+        <p class="text-muted" style="margin-top: 12px; font-size: 1rem;">
+          Randomized evaluations and working papers across Latin America — financial inclusion, education, and development.
+        </p>
+      </section>
+
+      <!-- INTERACTIVE MAP -->
+      <section>
+        <h2>Active Projects Map</h2>
+        <div id="research-map" class="map-container"></div>
+      </section>
+
+      <!-- FIELD PROJECTS -->
+      <section style="padding-top: 0;">
+        <h2>Field Projects</h2>
+        <div class="field-grid">
+
+          <div class="field-card">
+            <div class="country">🇭🇳 Honduras</div>
+            <h3>Poverty Stoplight Tool — Multidimensional Poverty</h3>
+            <p>Evaluating a household-level self-assessment tool designed to help families identify and address multiple dimensions of poverty simultaneously.</p>
+            <a href="https://poverty-action.org/evaluating-poverty-stoplight-tool-addressing-multidimensional-poverty-honduras" target="_blank" rel="noopener">IPA Project →</a>
+          </div>
+
+          <div class="field-card">
+            <div class="country">🇩🇴 Dominican Republic</div>
+            <h3>Behavioral Nudges for Credit Card Repayment</h3>
+            <p>Testing whether behaviorally-informed reminders and framing effects improve on-time credit card repayment among low-income cardholders.</p>
+            <a href="https://poverty-action.org/behavioral-nudges-improve-credit-card-repayment-dominican-republic" target="_blank" rel="noopener">IPA Project →</a>
+          </div>
+
+          <div class="field-card">
+            <div class="country">🇧🇷 Brazil</div>
+            <h3>Pix Digital Payment Adoption — Small Firms</h3>
+            <p>Studying barriers to adoption of Brazil's instant payment platform Pix among small and micro-enterprises, and testing interventions to increase uptake.</p>
+            <a href="https://poverty-action.org/increasing-small-firms-adoption-pix-digital-payment-platform-brazil" target="_blank" rel="noopener">IPA Project →</a>
+          </div>
+
+          <div class="field-card">
+            <div class="country">🇧🇴 Bolivia</div>
+            <h3>Climate Insurance &amp; Early Warning Systems</h3>
+            <p>Examining how climate insurance products and early warning systems affect agricultural households' ability to adapt to climate shocks.</p>
+            <a href="https://poverty-action.org/climate-adaptation-through-climate-insurance-and-early-warning-systems-perspectives-bolivia" target="_blank" rel="noopener">IPA Project →</a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- RESEARCH PAPERS -->
+      <section style="padding-top: 0;">
+        <h2>Research</h2>
+
+        <!-- Paper 1 -->
+        <div class="paper-card">
+          <span class="badge badge-amber">In Progress</span>
+          <h3>Transit Infrastructure and Educational Outcomes in Peru</h3>
+          <p class="paper-abstract">
+            This paper studies the causal effect of public transit expansion on educational outcomes in Peru, exploiting quasi-experimental variation in the rollout of metropolitan transit systems. We examine impacts on school attendance, dropout, and test scores.
+          </p>
+          <div class="paper-tags">
+            <span class="pill">Education</span>
+            <span class="pill">Infrastructure</span>
+            <span class="pill">Peru</span>
+          </div>
+          <span class="paper-link-muted">Draft available soon</span>
+        </div>
+
+        <!-- Paper 2 -->
+        <div class="paper-card">
+          <span class="badge badge-grey">Undergraduate Thesis</span>
+          <h3>Las aspiraciones y las decisiones de inversión en capital humano en hogares peruanos 2009–2016</h3>
+          <p class="paper-abstract">
+            Bachelor's thesis examining the relationship between household aspirations and human capital investment decisions in Peru, using panel data from 2009–2016.
+          </p>
+          <div class="paper-tags">
+            <span class="pill">Human Capital</span>
+            <span class="pill">Aspirations</span>
+            <span class="pill">Peru</span>
+            <span class="pill">PUCP</span>
+          </div>
+          <span class="paper-link-muted">PDF coming soon</span>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      Diego Delgado · Lima, Peru ·
+      <a href="https://github.com/DiegoDelgadoD" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/map.js"></script>
+</body>
+</html>

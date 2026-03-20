@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diego Delgado — Development Economist</title>
+  <meta name="description" content="Development economist based in Lima, Peru. Research Associate at IPA focusing on financial inclusion and education economics." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Hero */
+    .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url('assets/images/personal/personal_cusco_cathedral.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .hero-content { z-index: 1; padding: 0 24px; }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      margin-bottom: 20px;
+      letter-spacing: -0.04em;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      color: var(--accent);
+      font-weight: 500;
+      min-height: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    .hero-line {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 36px;
+    }
+
+    .hero-btns {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* About */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .about-bio p {
+      font-size: 1.02rem;
+      line-height: 1.85;
+      color: #d8d8d8;
+      margin-bottom: 20px;
+    }
+
+    .about-bio p:last-child { margin-bottom: 0; }
+
+    .pills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 24px;
+    }
+
+    .about-sidebar {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 24px;
+      border: 1px solid var(--border);
+      position: sticky;
+      top: 80px;
+    }
+
+    .about-sidebar img {
+      width: 100%;
+      border-radius: var(--radius);
+      margin-bottom: 16px;
+      object-fit: cover;
+      height: 220px;
+      background: var(--surface2);
+    }
+
+    .about-sidebar .profile-placeholder {
+      width: 100%;
+      height: 220px;
+      background: var(--surface2);
+      border-radius: var(--radius);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    .about-sidebar h3 { font-size: 1rem; margin-bottom: 4px; }
+    .about-sidebar p { font-size: 0.85rem; color: var(--text-muted); }
+
+    /* Quick-nav cards */
+    .nav-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .nav-card {
+      background: var(--surface);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 24px;
+      text-decoration: none;
+      display: block;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .nav-card:hover {
+      box-shadow: 0 8px 32px rgba(0,194,168,0.1);
+      transform: translateY(-3px);
+    }
+
+    .nav-card h3 { color: var(--text); font-size: 1.05rem; margin-bottom: 6px; }
+    .nav-card p { color: var(--text-muted); font-size: 0.88rem; }
+    .nav-card .arrow { color: var(--accent); margin-top: 12px; font-size: 1.1rem; }
+
+    @media (max-width: 900px) {
+      .about-grid { grid-template-columns: 1fr; }
+      .about-sidebar { position: static; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-cards { grid-template-columns: 1fr; }
+      .hero { background-attachment: scroll; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">Diego Delgado</a>
+      <ul class="navbar-links">
+        <li><a href="research.html">Research</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="code.html">Code</a></li>
+        <li><a href="files/Diego_Delgado_CV.pdf" target="_blank">CV</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav">
+    <a href="research.html">Research</a>
+    <a href="photography.html">Photography</a>
+    <a href="code.html">Code</a>
+    <a href="files/Diego_Delgado_CV.pdf" target="_blank">CV</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Diego Delgado</h1>
+      <div class="hero-subtitle"><span id="subtitle-cycle">Development Economist</span></div>
+      <p class="hero-line">Research Associate · IPA · Lima, Peru</p>
+      <div class="hero-btns">
+        <a href="research.html" class="btn btn-primary">See My Research →</a>
+        <a href="files/Diego_Delgado_CV.pdf" target="_blank" class="btn btn-outline">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div class="about-bio">
+          <p>
+            I'm a development economist based in Lima, Peru. My work sits at the intersection of
+            <span class="text-accent">financial inclusion</span> and <span class="text-accent">education economics</span> — studying how access to financial tools
+            shapes household welfare, and how early education investments propagate through
+            labor markets.
+          </p>
+          <p>
+            I'm on the path toward policy-oriented research: I care about generating rigorous
+            evidence that can actually inform decisions, not just academic conversations.
+          </p>
+          <p>
+            I work as a Research Associate at <a href="https://poverty-action.org" target="_blank" rel="noopener">Innovations for Poverty Action (IPA)</a>, managing
+            randomized evaluations across Latin America. I hold a B.Sc. in Economics from PUCP
+            (2022, first-class honours). Currently working on a paper on transit infrastructure
+            and educational outcomes in Peru.
+          </p>
+          <div class="pills-row">
+            <span class="pill">Financial Inclusion</span>
+            <span class="pill">Education Economics</span>
+            <span class="pill">Development</span>
+            <span class="pill">RCTs</span>
+            <span class="pill">Latin America</span>
+          </div>
+        </div>
+        <aside class="about-sidebar">
+          <div class="profile-placeholder">Profile photo coming soon</div>
+          <h3>Diego Delgado</h3>
+          <p>Research Associate, IPA</p>
+          <p style="margin-top:4px;">Lima, Peru</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK-NAV CARDS -->
+  <section style="padding-top: 0;">
+    <div class="container">
+      <h2>Explore</h2>
+      <div class="nav-cards">
+        <a href="research.html" class="nav-card">
+          <h3>Research</h3>
+          <p>4 active RCTs across Latin America</p>
+          <div class="arrow">→</div>
+        </a>
+        <a href="photography.html" class="nav-card">
+          <h3>Photography</h3>
+          <p>Field work &amp; travel</p>
+          <div class="arrow">→</div>
+        </a>
+        <a href="code.html" class="nav-card">
+          <h3>Code</h3>
+          <p>Methods, replication &amp; tools</p>
+          <div class="arrow">→</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      Diego Delgado · Lima, Peru ·
+      <a href="https://github.com/DiegoDelgadoD" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

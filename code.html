@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code — Diego Delgado</title>
+  <meta name="description" content="Replication scripts, data tools, and coursework in Python, R, and Stata by Diego Delgado." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    .code-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 28px;
+      border: 1px solid var(--border);
+      margin-bottom: 20px;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .code-card:hover {
+      box-shadow: 0 8px 32px rgba(0,194,168,0.08);
+      transform: translateY(-2px);
+    }
+
+    .code-card h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+
+    .code-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .code-card .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .code-card .card-link {
+      font-size: 0.88rem;
+      font-weight: 500;
+    }
+
+    .coming-soon-card {
+      opacity: 0.5;
+    }
+
+    .coming-soon-card:hover {
+      box-shadow: none;
+      transform: none;
+    }
+
+    .coming-soon-card h3 {
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">Diego Delgado</a>
+      <ul class="navbar-links">
+        <li><a href="research.html">Research</a></li>
+        <li><a href="photography.html">Photography</a></li>
+        <li><a href="code.html" class="active">Code</a></li>
+        <li><a href="files/Diego_Delgado_CV.pdf" target="_blank">CV</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav">
+    <a href="research.html">Research</a>
+    <a href="photography.html">Photography</a>
+    <a href="code.html" class="active">Code</a>
+    <a href="files/Diego_Delgado_CV.pdf" target="_blank">CV</a>
+  </div>
+
+  <main class="page-top">
+    <div class="container">
+
+      <!-- PAGE HEADER -->
+      <section style="padding-bottom: 0;">
+        <h1>Code &amp; Methods</h1>
+        <p class="text-muted" style="margin-top: 12px; font-size: 1rem;">
+          Replication scripts, data tools, and coursework in Python, R, and Stata
+        </p>
+      </section>
+
+      <!-- PROJECT CARDS -->
+      <section>
+
+        <div class="code-card">
+          <h3>Applied Statistics: ML &amp; Causal Inference</h3>
+          <div class="tags">
+            <span class="pill">Python</span>
+            <span class="pill">Causal Inference</span>
+            <span class="pill">Machine Learning</span>
+            <span class="pill">PUCP</span>
+          </div>
+          <p>
+            Replication of Applied Statistics labs covering FWL theorem, Lasso regression, RCT analysis,
+            orthogonality, bootstrapping, and Debiased Machine Learning using the Barro-Lee growth dataset.
+          </p>
+          <a href="https://github.com/DiegoDelgadoD/AppliedStatisticsPUCPGroup7" target="_blank" rel="noopener" class="card-link">
+            View on GitHub →
+          </a>
+        </div>
+
+        <div class="code-card">
+          <h3>Intermediate Python — QLab PUCP</h3>
+          <div class="tags">
+            <span class="pill">Python</span>
+            <span class="pill">Web Scraping</span>
+            <span class="pill">Geospatial</span>
+            <span class="pill">Data Viz</span>
+          </div>
+          <p>
+            Webscraping Peruvian electoral results, measuring distances with the Google Maps API, and mapping
+            Dengue cases and university locations across Peru using GeoPandas and interactive maps.
+          </p>
+          <a href="https://github.com/DiegoDelgadoD/Intermediate-Python-" target="_blank" rel="noopener" class="card-link">
+            View on GitHub →
+          </a>
+        </div>
+
+      </section>
+
+      <!-- COMING SOON -->
+      <section style="padding-top: 0;">
+        <hr class="section-rule" />
+        <h3 style="margin-bottom: 20px;">Coming Soon</h3>
+
+        <div class="code-card coming-soon-card">
+          <h3>Stata utilities for survey data cleaning</h3>
+          <div class="tags">
+            <span class="pill">Stata</span>
+            <span class="pill">Survey Data</span>
+          </div>
+        </div>
+
+        <div class="code-card coming-soon-card">
+          <h3>R scripts for RCT pre-analysis plans</h3>
+          <div class="tags">
+            <span class="pill">R</span>
+            <span class="pill">RCTs</span>
+            <span class="pill">Pre-Analysis</span>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      Diego Delgado · Lima, Peru ·
+      <a href="https://github.com/DiegoDelgadoD" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
