@@ -52,10 +52,72 @@
         <div id="research-map" class="map-container"></div>
       </section>
 
-      <!-- FIELD PROJECTS -->
+      <!-- TABS -->
       <section style="padding-top: 0;">
-        <h2>Field Projects</h2>
-        <div class="field-grid">
+        <div class="tabs-nav">
+          <button class="tab-btn active" data-tab="my-research">My Research</button>
+          <button class="tab-btn" data-tab="ipa-projects">IPA Projects</button>
+        </div>
+
+        <!-- TAB: MY RESEARCH -->
+        <div class="tab-content active" id="my-research">
+          <h2>Research & Publications</h2>
+
+          <!-- Paper 1: Migration Paper -->
+          <div class="paper-card">
+            <span class="badge badge-blue">Published</span>
+            <h3>Cuando migrar no es suficiente: una comparación de la calidad del empleo de los migrantes y no migrantes en el Perú urbano en el 2019 y 2020</h3>
+            <p class="paper-abstract">
+              This research examines employment quality among internal migrants in Peruvian urban areas during 2019-2020. Using a decent work framework, we developed an index and found that employment quality deteriorated overall. Through generalized ordinal logistic regression, we determined no significant relationship between migrant status and the employment quality index, though certain sociodemographic and labor characteristics associated with migrants correlated with lower employment quality.
+            </p>
+            <div class="paper-tags">
+              <span class="pill">Migration</span>
+              <span class="pill">Employment</span>
+              <span class="pill">Peru</span>
+              <span class="pill">Económica</span>
+            </div>
+            <div style="margin-top: 12px;">
+              <span style="font-size: 0.85rem; color: var(--text-muted);">With Stephy Riega Escalante</span><br>
+              <a href="https://revistas.pucp.edu.pe/index.php/economica/article/view/25082" target="_blank" class="card-link" style="font-size:0.85rem;">View Publication →</a>
+            </div>
+          </div>
+
+          <!-- Paper 2: Transit Infrastructure -->
+          <div class="paper-card">
+            <span class="badge badge-amber">In Progress</span>
+            <h3>Transit Infrastructure and Educational Outcomes in Peru</h3>
+            <p class="paper-abstract">
+              This paper studies the causal effect of public transit expansion on educational outcomes in Peru, exploiting quasi-experimental variation in the rollout of metropolitan transit systems. We examine impacts on school attendance, dropout, and test scores.
+            </p>
+            <div class="paper-tags">
+              <span class="pill">Education</span>
+              <span class="pill">Infrastructure</span>
+              <span class="pill">Peru</span>
+            </div>
+            <span class="paper-link-muted">Draft available soon</span>
+          </div>
+
+          <!-- Paper 3: Undergraduate Thesis -->
+          <div class="paper-card">
+            <span class="badge badge-grey">Undergraduate Thesis</span>
+            <h3>Las aspiraciones y las decisiones de inversión en capital humano en hogares peruanos 2009–2016</h3>
+            <p class="paper-abstract">
+              Bachelor's thesis examining the relationship between household aspirations and human capital investment decisions in Peru, using panel data from 2009–2016.
+            </p>
+            <div class="paper-tags">
+              <span class="pill">Human Capital</span>
+              <span class="pill">Aspirations</span>
+              <span class="pill">Peru</span>
+              <span class="pill">PUCP</span>
+            </div>
+            <a href="files/tesis.pdf" target="_blank" class="card-link" style="font-size:0.85rem;">Download PDF →</a>
+          </div>
+        </div>
+
+        <!-- TAB: IPA PROJECTS -->
+        <div class="tab-content" id="ipa-projects">
+          <h2>IPA Projects</h2>
+          <div class="field-grid">
 
           <div class="field-card">
             <div class="country">🇭🇳 Honduras</div>
@@ -85,42 +147,7 @@
             <a href="https://poverty-action.org/climate-adaptation-through-climate-insurance-and-early-warning-systems-perspectives-bolivia" target="_blank" rel="noopener">IPA Project →</a>
           </div>
 
-        </div>
-      </section>
-
-      <!-- RESEARCH PAPERS -->
-      <section style="padding-top: 0;">
-        <h2>Research</h2>
-
-        <!-- Paper 1 -->
-        <div class="paper-card">
-          <span class="badge badge-amber">In Progress</span>
-          <h3>Transit Infrastructure and Educational Outcomes in Peru</h3>
-          <p class="paper-abstract">
-            This paper studies the causal effect of public transit expansion on educational outcomes in Peru, exploiting quasi-experimental variation in the rollout of metropolitan transit systems. We examine impacts on school attendance, dropout, and test scores.
-          </p>
-          <div class="paper-tags">
-            <span class="pill">Education</span>
-            <span class="pill">Infrastructure</span>
-            <span class="pill">Peru</span>
           </div>
-          <span class="paper-link-muted">Draft available soon</span>
-        </div>
-
-        <!-- Paper 2 -->
-        <div class="paper-card">
-          <span class="badge badge-grey">Undergraduate Thesis</span>
-          <h3>Las aspiraciones y las decisiones de inversión en capital humano en hogares peruanos 2009–2016</h3>
-          <p class="paper-abstract">
-            Bachelor's thesis examining the relationship between household aspirations and human capital investment decisions in Peru, using panel data from 2009–2016.
-          </p>
-          <div class="paper-tags">
-            <span class="pill">Human Capital</span>
-            <span class="pill">Aspirations</span>
-            <span class="pill">Peru</span>
-            <span class="pill">PUCP</span>
-          </div>
-          <a href="files/tesis.pdf" target="_blank" class="card-link" style="font-size:0.85rem;">Download PDF →</a>
         </div>
 
       </section>
